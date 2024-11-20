@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Gradient Graphic T-Shirt",
+        "rating": 3.5,
+        "new_price": 399,
+        "old_price": 399,
+        "desc": "The Gradient Graphic T-Shirt combines comfort and style, featuring a vibrant gradient design that seamlessly blends colors for a sleek, modern look. Made from premium, breathable fabric, it’s perfect for casual outings or making a bold fashion statement.",
+        "imgs": [
+            "https://res.cloudinary.com/dz6b9s5jh/image/upload/v1732083545/uo2czuztfmbshvkvgm6d.png"
+        ]
+    },
+    {
+        "name": "Polo with Tipping Details",
+        "rating": 4.5,
+        "new_price": 499,
+        "old_price": 499,
+        "desc": "The Polo with Tipping Details offers a refined touch to a classic design, featuring contrasting trims on the collar and sleeves for added elegance. Crafted from soft, durable fabric, it’s perfect for versatile, smart-casual styling.",
+        "imgs": [
+            "https://res.cloudinary.com/dz6b9s5jh/image/upload/v1732083545/mn151beviwq19umsyxxj.png"
+        ]
+    },
+    {
+        "name": "Black Striped T-shirt",
+        "rating": 5,
+        "new_price": 429,
+        "old_price": 499,
+        "desc": "The Black Striped T-Shirt is a timeless wardrobe essential, featuring sleek, minimalistic stripes for a modern edge. Made from soft, breathable fabric, it blends comfort with effortless style, perfect for any casual outing.",
+        "imgs": [
+            "https://res.cloudinary.com/dz6b9s5jh/image/upload/v1732083545/q3upsjoojubzcwkptvor.png"
+        ]
+    },
+    {
+        "name": "Skinny Fit Jeans",
+        "rating": 3.5,
+        "new_price": 499,
+        "old_price": 599,
+        "desc": "Skinny Fit Jeans offer a sleek and modern silhouette, hugging the body for a streamlined look. Crafted from stretchable, durable denim, they ensure all-day comfort while elevating your casual or smart-casual outfits.",
+        "imgs": [
+            "https://res.cloudinary.com/dz6b9s5jh/image/upload/v1732083545/fzsmvft76sevrt55xv3k.png"
+        ]
+    },
+    {
+        "name": "Checkered Shirt",
+        "rating": 4.5,
+        "new_price": 399,
+        "old_price": 399,
+        "desc": "The Checkered Shirt combines classic charm with modern versatility, featuring a timeless plaid pattern. Made from soft, breathable fabric, it's perfect for both casual outings and semi-formal occasions.",
+        "imgs": [
+            "https://res.cloudinary.com/dz6b9s5jh/image/upload/v1732083545/ptmxc35ffj0d56ucn8qz.png"
+        ]
+    },
+    {
+        "name": "Sleeve Striped T-Shirt",
+        "rating": 4.5,
+        "new_price": 299,
+        "old_price": 349,
+        "desc": "The Sleeve Striped T-Shirt adds a sporty twist to casual wear, featuring bold stripes on the sleeves for a standout look. Made from soft, breathable fabric, it offers comfort and effortless style for any day.",
+        "imgs": [
+            "https://res.cloudinary.com/dz6b9s5jh/image/upload/v1732083545/nhfr0i8pfipqke5sxvuo.png"
+        ]
+    },
+    {
+        "name": "Vertical Striped Shirt",
+        "rating": 5,
+        "new_price": 429,
+        "old_price": 449,
+        "desc": "The Vertical Striped Shirt brings a touch of sophistication with its clean, elongating stripe design. Made from lightweight, breathable fabric, it's a versatile choice for both formal and casual occasions.",
+        "imgs": [
+            "https://res.cloudinary.com/dz6b9s5jh/image/upload/v1732083546/vcm1wh75xkcrukevzkdy.png"
+        ]
+    },
+    {
+        "name": "Courage Graphic T-Shirt",
+        "rating": 4,
+        "new_price": 299,
+        "old_price": 299,
+        "desc": "The Courage Graphic T-Shirt inspires boldness with its striking graphic design and empowering message. Made from premium, soft fabric, it’s perfect for showcasing confidence and style in everyday wear.",
+        "imgs": [
+            "https://res.cloudinary.com/dz6b9s5jh/image/upload/v1732083546/sog32tbhowcrv3ywgkxk.png"
+        ]
+    },
+    {
+        "name": "Loose Fit Bermuda Shorts",
+        "rating": 4,
+        "new_price": 199,
+        "old_price": 199,
+        "desc": "Loose Fit Bermuda Shorts combine relaxed comfort with effortless style, featuring a roomy silhouette perfect for warm days. Crafted from lightweight, breathable fabric, they’re ideal for casual outings or laid-back lounging.",
+        "imgs": [
+            "https://res.cloudinary.com/dz6b9s5jh/image/upload/v1732083546/ux7u3oejf4p1jot0vvi1.png"
+        ]
+    },
+    {
+        "name": "One Life Graphic T-shirt",
+        "rating": 4.5,
+        "new_price": 529,
+        "old_price": 599,
+        "desc": "The One Life Graphic T-Shirt features a bold design that inspires living life to the fullest. Made from soft, breathable fabric, it’s a perfect blend of comfort and motivation for your everyday wardrobe.",
+        "imgs": [
+            "https://res.cloudinary.com/dz6b9s5jh/image/upload/v1732083546/o3meo61i9k0rqopc3o9m.png"
+        ]
+    },
+    {
+        "name": "Polo with Contrast Trims",
+        "rating": 4,
+        "new_price": 319,
+        "old_price": 399,
+        "desc": "The Polo with Contrast Trims offers a stylish update to the classic design, featuring contrasting details on the collar and sleeves for a modern edge. Made from soft, breathable fabric, it’s perfect for adding a refined touch to casual or semi-formal looks.",
+        "imgs": [
+            "https://res.cloudinary.com/dz6b9s5jh/image/upload/v1732083546/ianzhh4zrnnn0lr1lqiw.png"
+        ]
+    },
+    {
+        "name": "T-Shirt with tape details",
+        "rating": 4.5,
+        "new_price": 229,
+        "old_price": 229,
+        "desc": "The T-Shirt with Tape Details combines contemporary style with a sporty vibe, featuring sleek tape accents along the shoulders or sleeves. Crafted from soft, comfortable fabric, it’s a trendy addition to your casual wardrobe for a bold and dynamic look.",
+        "imgs": [
+            "https://res.cloudinary.com/dz6b9s5jh/image/upload/v1732083546/ffoelpy0zdbzpmkmsu58.png"
+        ]
+    }
+]
