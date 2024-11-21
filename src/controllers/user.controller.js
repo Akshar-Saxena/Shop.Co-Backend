@@ -13,7 +13,11 @@ async function loginController(req, res) {
                 { lastLogged: new Date().toString() }
             );
             res.status(200)
-                .cookie("access_token", token, { secure: true, httpOnly: true })
+                .cookie("access_token", token, {
+                    sameSite: "none",
+                    secure: true,
+                    httpOnly: true,
+                })
                 .json({ message: "Login successful" });
         } else {
             res.status(400).json({ message: "Invalid password" });
@@ -55,7 +59,11 @@ async function registerController(req, res) {
         .then((e) => {
             const token = getAccessToken({ _id: e._id.toString() });
             res.status(201)
-                .cookie("access_token", token, { secure: true, httpOnly: true })
+                .cookie("access_token", token, {
+                    sameSite: "none",
+                    secure: true,
+                    httpOnly: true,
+                })
                 .json({ message: "User created successfully" });
         })
         .catch((e) => {
