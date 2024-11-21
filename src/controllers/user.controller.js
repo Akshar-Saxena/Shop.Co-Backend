@@ -14,7 +14,8 @@ async function loginController(req, res) {
             );
             res.status(200)
                 .cookie("access_token", token, {
-                    sameSite: "strict",
+                    sameSite: "none",
+                    expires: new Date(Date.now() + 86400000),
                     secure: true,
                     httpOnly: true,
                 })
@@ -60,7 +61,8 @@ async function registerController(req, res) {
             const token = getAccessToken({ _id: e._id.toString() });
             res.status(201)
                 .cookie("access_token", token, {
-                    sameSite: "strict",
+                    sameSite: "none",
+                    expires: new Date(Date.now() + 86400000),
                     secure: true,
                     httpOnly: true,
                 })
