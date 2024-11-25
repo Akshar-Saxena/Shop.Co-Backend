@@ -33,7 +33,7 @@ async function allProductController(req, res) {
 }
 
 async function newarrivalsController(req, res) {
-    const newarrivals = await productModel.find({}).sort({ createdAt: 1 });
+    const newarrivals = await productModel.find({}).sort({ createdAt: -1 });
     res.status(200).json({
         message: "New arrivals",
         products: [
