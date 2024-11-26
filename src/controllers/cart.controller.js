@@ -5,12 +5,28 @@ async function getCartController(req, res) {
     const { _id } = req.body;
     const user = await userModel.findOne({ _id });
 
+    const resCart = [];
+
+    const getProductInfo = async (i) => {
+        const product = await productModel.findOne({ _id: user.cart[i].id });
+        resCart.push({
+            ...product._doc,
+            count: user.cart[i].count,
+        });
+    };
+
+    if (user.cart.length > 0) {
+        for (let i = 0; i < user.cart.length; i++) {
+            await getProductInfo(i);
+        }
+    }
+
     res.status(200).json({
         message:
             user.cart.length == 0
                 ? "Cart is empty"
                 : `Cart has ${user.cart.length} items`,
-        cart: user.cart,
+        cart: resCart,
     });
 }
 async function addCartController(req, res) {
