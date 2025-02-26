@@ -37,6 +37,8 @@ app.use(
 app.use(cookieParser());
 app.options("*", cors());
 
+app.get("/", (req, res) => res.json({ message: "Service is available" }));
+
 // User Routes
 app.post("/api/v1/users/login", loginController);
 app.post("/api/v1/users/register", registerController);
