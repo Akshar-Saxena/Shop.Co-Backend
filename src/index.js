@@ -37,23 +37,6 @@ app.use(
 app.use(cookieParser());
 app.options("*", cors());
 
-app.use((req, res, next) => {
-    res.header(
-        "Access-Control-Allow-Origin",
-        "https://shop-co-vert.vercel.app, http://localhost:5173"
-    );
-    res.header(
-        "Access-Control-Allow-Headers",
-        "Origin, X-Requested-With, Content-Type, Accept"
-    );
-    res.header(
-        "Access-Control-Allow-Methods",
-        "GET, POST, PUT, DELETE, OPTIONS"
-    );
-    res.header("Access-Control-Allow-Credentials", "true");
-    next();
-});
-
 app.get("/", (req, res) => res.json({ message: "Service is available" }));
 
 // User Routes
