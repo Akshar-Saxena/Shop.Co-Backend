@@ -40,7 +40,7 @@ app.options("*", cors());
 app.use((req, res, next) => {
     res.header(
         "Access-Control-Allow-Origin",
-        "https://shop-co-vert.vercel.app"
+        "https://shop-co-vert.vercel.app, http://localhost:5173"
     );
     res.header(
         "Access-Control-Allow-Headers",
